@@ -1,0 +1,7 @@
+gunicorn==20.1.0
+Markdown==3.4.1
+mysql-connector==2.2.9
+python-dotenv==0.20.0
+pushbullet-python==1.7.0
+schedule==1.1.0
+urllib3==1.26.11

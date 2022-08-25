@@ -74,7 +74,9 @@ def checkPhotos():
     return
     
 if __name__ == '__main__':
-    schedule.every().day.at("12:00").do(checkPhotos)
+    # in utc
+    # 16:00 utc = 12:00 edt
+    schedule.every().day.at("16:00").do(checkPhotos)
 
     while True:
         print(time.ctime())
